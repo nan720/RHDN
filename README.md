@@ -14,8 +14,8 @@ Repositori ini berisi data hasil scraping berupa file JSON yang diambil dari sit
 Setiap file JSON memiliki struktur data berisi id untuk setiap entri sebagai identitas.
 
 Pada file `translations.json` terdapat data berupa `"img"` yang hanya berisi ektensi images (.jpg, .png, .gif). File tersebut adalah screenshot dari game yang telah diterjemahkan 
-- contoh url lengkap: /1234screenshot1.png
-    penjelasan:
+- contoh url: `/1234screenshot1.png`
+
      - **1234** adalah ID dari patch
      - **screenshot** adalah nama images nya
      - **1** pada akhiran screenshot adalah sambungan screenshot satu hingga 4
