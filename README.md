@@ -6,12 +6,13 @@ Repositori ini berisi data hasil scraping berupa file JSON yang diambil dari sit
 
 ## Konten
 
-- **data/**: Folder ini berisi file-file JSON hasil scraping.
+- **data/**: Folder ini berisi file-file JSON hasil scraping (Baru).
+- **data_lama/**: Sama kaya Folder di atas, cuman ini hasil scraping dari internet arsip.
 - **README.md**: Berkas yang kamu baca saat ini.
 
 ## Struktur Data
 
-Setiap file JSON memiliki struktur data berisi id untuk setiap entri sebagai identitas.
+Setiap file JSON punya struktur data berisi id untuk setiap entri sebagai identitas.
 
 Pada file `translations.json` terdapat data berupa `"img"` yang hanya berisi ektensi images (.jpg, .png, .gif). File tersebut adalah screenshot dari game yang telah diterjemahkan 
 - contoh url: `/1234screenshot1.png`
